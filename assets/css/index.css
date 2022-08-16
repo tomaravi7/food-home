@@ -3,10 +3,18 @@
     --sec-color: #1C2C59;
     --text-color: #666;
 }
+html{
+    background-color: var(--sec-color);
+    overflow-y: hidden;
+}
 
 body {
     background-color: var(--prim-color) !important;
     color: var(--sec-color) !important;
+    margin:2%;
+    border: 4px solid #1c2c59;
+    min-height: 90vh;
+    overflow-y: scroll;
 }
 
 .shad-hov {
@@ -100,4 +108,20 @@ body {
     100% {
         filter: blur(5px) brightness(10);
     }
+}
+
+/* navbar */
+.offcanvas{
+    min-height: 80vh;
+    margin: 2%;
+    background-color: var(--sec-color) !important;
+    color: var(--prim-color) !important;
+    background-image: url(../images/bg-cutlery3.png);
+    background-size: 135px;
+    background-repeat: repeat;
+}
+.text-color{
+    color: var(--prim-color) !important;
+    font-family: 'Rubik Distressed', cursive;
+    font-weight: 700 !important;
 }
