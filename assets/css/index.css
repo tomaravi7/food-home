@@ -6,6 +6,11 @@
     --text-color: #666;
     --story-color:#fe4e2b;
 }
+html{
+    background-color: var(--sec-color);
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
 
 body {
     /* background-color: var(--prim-color) !important; */
