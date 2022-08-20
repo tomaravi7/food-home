@@ -1,5 +1,9 @@
 /* STORY SECTION  */
 
+img{
+    object-fit: cover;
+}
+
 .padding-story-main{
     padding: 2vh 2vw;
 }
