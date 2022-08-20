@@ -1,20 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 :root {
     --prim-color: #F5F3EC;
     --sec-color: #1C2C59;
     --text-color: #666;
+    --story-color:#fe4e2b;
 }
 html{
     background-color: var(--sec-color);
-    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
-body {
-    background-color: var(--prim-color) !important;
+body{
     color: var(--sec-color) !important;
-    margin:2%;
-    border: 4px solid #1c2c59;
-    min-height: 90vh;
-    overflow-y: scroll;
 }
 
 .shad-hov {

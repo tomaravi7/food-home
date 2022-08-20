@@ -1,0 +1,89 @@
+/* STORY SECTION  */
+
+.padding-story-main{
+    padding: 2vh 2vw;
+}
+
+.discover-font{
+    font-size: 3rem;
+    color: var(--story-color);
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+
+.padding-top-story{
+    padding: 20vh 5vw;
+}
+
+.font-story{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Futura PT";
+    letter-spacing: 3px;
+}
+
+.padding-para{
+    line-height: 2rem;
+}
+
+.button-story{
+    background: var(--story-color);
+    border: none;
+    color: white;
+    height: 3.5rem;
+    width: 15rem;
+    letter-spacing: 2px;
+    font-size: .9rem;
+    font-weight: 400;
+    transition: .5s ease-in-out;
+}
+
+.button-story:hover{
+    background-color: white;
+    color: var(--story-color);
+    border: var(--story-color) 1px solid;
+}
+
+/* GALLERY SECTION  */
+
+.gallery-background{
+    background-color: var(--story-color);
+    padding: 7vh 10vw;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.border-gallery{
+    border: 6px solid white;
+}
+
+.border-gallery1{
+    border: 6px solid white;
+    height: 332px;
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.gallery-view{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+.gallery-gallery{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3.3rem;
+}
+
+
+/* QUOTE SECTION  */
