@@ -5,7 +5,7 @@ document.onreadystatechange = function () {
     document.querySelector("#preload").style.visibility = "visible";
     window.scrollTo(0, 0);
   } else {
-    const myTimeout = setTimeout(loadpage, 200);
+    const myTimeout = setTimeout(loadpage, 4200);
   }
 };
 function loadpage() {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 :root {
     --prim-color: #F5F3EC;
@@ -109,7 +111,8 @@ body{
 
 /* navbar */
 .offcanvas{
-    min-height: 60vh !important;
+    /* min-height:98vh !important; */
+    height: fit-content !important;
     margin: 1% 3%;
     background-repeat: no-repeat;
     background-position: right;
@@ -126,11 +129,6 @@ body{
 }
 .offcanvas-body{
     background-color: var(--prim-color);
-    background-image: url(../images/bg-cutlery2.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: -120px;
-    background-size: 400px;
 }
 .text-color{
     color: var(--sec-color) !important;
@@ -144,13 +142,22 @@ body{
 }
 .parallax {
     background-image: url(../images/carousel/slide2.webp);
-    min-height: 500px;
+    min-height: fit-content;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .reservation-back{
-    backdrop-filter: blur(10px);
-    color: var(--story-color);
+    backdrop-filter: blur(5px);
+    color: var(--prim-color);
+    font-weight: 900;
+}
+.input-cstm{
+    color: var(--sec-color) !important;
+    background-color: var(--prim-color);
+    font-size: large;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 15px;
 }
