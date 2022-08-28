@@ -161,3 +161,6 @@ body{
     border-radius: 3px;
     padding: 15px;
 }
+.wrap-txt{
+    word-wrap: break-word;
+}
